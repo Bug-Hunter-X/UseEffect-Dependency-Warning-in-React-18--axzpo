@@ -1,0 +1,3 @@
+# React 18 useEffect Dependency Warning
+
+This repository demonstrates a common error in React 18+ related to the useEffect hook and its dependencies.  Forgetting to list variables used within the useEffect function that change over time will lead to warnings and potentially unexpected behavior. This particular example focuses on an interval timer.  The solution demonstrates how to correctly manage dependencies to fix this issue.  This is crucial for preventing memory leaks and ensuring correct component behavior.
